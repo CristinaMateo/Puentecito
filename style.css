@@ -2,20 +2,24 @@
 body{
     background-color: #efeae2;
     font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    overflow: scroll;
 }
 
 header{
     text-align: center;
-   
+   margin-bottom: 50px;
+   align-items: baseline
 }
 
 h1{
     border: #725366 solid 2px;
     padding:2px;
+    margin: 20px;
 }
-img{
+h1 img{
     width: 25% ;
-    min-width: 200px;
+    min-width: 150px;
 }
 
 div.top{
@@ -35,6 +39,10 @@ div.top > a{
     color:black;
 }
 
+nav{
+    margin-top: 20px;
+}
+
 button{
     padding: 3px;
     font-size: medium;
@@ -49,26 +57,65 @@ a{
 }
 
 article{
-    text-align: justify;
+    text-align: center;
+    padding: 20px 15px;
+    margin:100px auto;
+    border-style: dashed;
+    border-color: #725366;
+    width: 90%;
 }
 
 .exorcismos{
     background-color: #D0A98F;
-
+    text-align: justify;
+}
+.exorcismos img{
+    min-width: 325px;
+    width: 25%;
+    position: relative;
+    left:37%
 }
 
 .mono{
     background-color: #EDD4B2;
+    text-align: justify;
+}
+.mono img{
+    min-width: 325px;
+    width: 25%;
+    position: relative;
+    left:37%;
 }
 
 .peques{
     background-color: #CAC2B5;
+    text-align: justify;
+}
+.peques img{
+    min-width: 325px;
+    width: 25%;
+    position: relative;
+    left:37%;
 }
 
 .planta{
     background-color: #ECDCC9;
+    text-align: justify;
+}
+.planta img{
+    min-width: 325px;
+    width: 25%;
+    position: relative;
+    left:37%;
 }
 
 .popaux{
     background-color: #D0A98F;
+    text-align: justify;
+}
+.popaux img{
+    min-width: 325px;
+    width: 25%;
+    position: relative;
+    left:37%;
 }
