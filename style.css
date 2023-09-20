@@ -1,8 +1,23 @@
 
 body{
     background-color: #efeae2;
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
 }
+
+header{
+    text-align: center;
+   
+}
+
+h1{
+    border: #725366 solid 2px;
+    padding:2px;
+}
+img{
+    width: 25% ;
+    min-width: 200px;
+}
+
 div.top{
     position:fixed;
     bottom:10px;
@@ -21,19 +36,25 @@ div.top > a{
 }
 
 button{
-    padding: 10px;
+    padding: 3px;
     font-size: medium;
     margin: 5px;
-    background-color: #725366;
-    
+    background-color: #725366;  
 }
 a{
     color: rgb(254, 254, 254);
-    font-family: 'Courier New', Courier, monospace
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin:10px;
+}
+
+article{
+    text-align: justify;
 }
 
 .exorcismos{
     background-color: #D0A98F;
+
 }
 
 .mono{
