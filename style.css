@@ -64,9 +64,8 @@ a{
 }
 
 article{
-    /*text-align: center;*/
     padding: 20px 15px;
-    margin:100px;
+    margin: 30px auto;
     border-style: dashed;
     border-color: #725366;
     width: 60%;
@@ -82,63 +81,36 @@ article p{
     background-color: #D0A98F;
     text-align: justify;
 }
-.exorcismos img{
+
+article img{
     min-width: 325px;
     width: 25%;
     position: relative;
-    left:37%
+    left: 10%;
+    top: -15px;
 }
 
 .mono{
     background-color: #EDD4B2;
     text-align: justify;
 }
-article.mono{
-position:relative;
-left: 30%;
-}
 
-.mono img{
-    min-width: 325px;
-    width: 25%;
-    position: relative;
-    left:37%;
-}
 
 .peques{
     background-color: #CAC2B5;
     text-align: justify;
-}
-.peques img{
-    min-width: 325px;
-    width: 25%;
-    position: relative;
-    left:37%;
 }
 
 .planta{
     background-color: #ECDCC9;
     text-align: justify;
 }
-.planta img{
-    min-width: 325px;
-    width: 25%;
-    position: relative;
-    left:37%;
-}
-article.planta{
-    position:relative;
-    left: 30%;
-    }
+
+
 
 .popaux{
     background-color: #D0A98F;
     text-align: justify;
 }
-.popaux img{
-    min-width: 325px;
-    width: 25%;
-    position: relative;
-    left:37%;
-}
+
 
